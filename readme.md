@@ -48,9 +48,13 @@ resource "docker_container" "nginx" {
     external = 8080
   }
 }
+---
 
- 🚀 How to Run the Project
+---
+## 🚀 How to Run the Project
+
 🔧 Prerequisites
+
 Docker Desktop installed and running
 
 Terraform installed
@@ -75,24 +79,27 @@ PowerShell or Command Prompt (run as Administrator if needed)
 5. Visit Nginx in browser
     http://localhost:8080
 
-
+---
+---
 ## 🧹To Destroy the Infrastructure
     terraform destroy
 
 👉 Confirm with yes when prompted.
+---
 
-
+---
 ## 🔍 Useful Terraform Commands
 
-    terraform init — Initializes Terraform project and downloads provider plugins
+    **terraform init** — Initializes Terraform project and downloads provider plugins
 
-    terraform plan — Shows what Terraform will do
+    **terraform plan** — Shows what Terraform will do
 
-    terraform apply — Applies the changes and provisions infrastructure
+    **terraform apply** — Applies the changes and provisions infrastructure
 
-    terraform destroy — Tears down the created infrastructure
+    **terraform destroy** — Tears down the created infrastructure
 
-    terraform state list — Lists all tracked resources
+    **terraform state list** — Lists all tracked resources
 
-    terraform show — Shows details of the Terraform state
+    **terraform show** — Shows details of the Terraform state
+---
 ```
