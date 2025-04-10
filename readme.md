@@ -48,6 +48,7 @@ resource "docker_container" "nginx" {
     external = 8080
   }
 }
+```
 ---
 
 ---
@@ -102,4 +103,4 @@ PowerShell or Command Prompt (run as Administrator if needed)
 
     **terraform show** — Shows details of the Terraform state
 ---
-```
+
