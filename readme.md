@@ -49,9 +49,11 @@ resource "docker_container" "nginx" {
   }
 }
 ```
+
 ---
 
 ---
+
 ## 🚀 How to Run the Project
 
 🔧 Prerequisites
@@ -63,32 +65,36 @@ Terraform installed
 PowerShell or Command Prompt (run as Administrator if needed)
 
 ✅ Steps to Provision
+
 1. Initialize the project
-    terraform init
+   terraform init
 
 2. Preview the execution plan
-    terraform plan
+   terraform plan
 
 3. Apply the configuration
-    terraform apply
+   terraform apply
 
 👉 Type yes when prompted.
 
 4. Verify the container is running
-    docker ps
+   docker ps
 
 5. Visit Nginx in browser
-    http://localhost:8080
+   http://localhost:8080
 
 ---
+
 ---
+
 ## 🧹To Destroy the Infrastructure
+
     terraform destroy
 
-👉 Confirm with yes when prompted.
----
+## 👉 Confirm with yes when prompted.
 
 ---
+
 ## 🔍 Useful Terraform Commands
 
 **terraform init** — Initializes Terraform project and downloads provider plugins
@@ -101,6 +107,4 @@ PowerShell or Command Prompt (run as Administrator if needed)
 
 **terraform state list** — Lists all tracked resources
 
-**terraform show** — Shows details of the Terraform state
----
-
+## **terraform show** — Shows details of the Terraform state
